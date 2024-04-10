@@ -1,17 +1,21 @@
 import './App.css'
 
 import { useState } from 'react'
+import {Outlet} from 'react-router-dom'
 
 import viteLogo from '/vite.svg'
 
 import reactLogo from './assets/react.svg'
-import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 function App() {
 
   return (
     <>
-     <Navbar/>
+     <Header/>
+     <Outlet/>
+     <Footer/>
     </>
   )
 }
