@@ -6,8 +6,12 @@ export default {
   ],
   theme: {
     extend: {
-      brightColor: "#AB6B2E",
-      backgroundColor: "#FDE2CC"
+      colors:{
+        brightColor: "#AB6B2E",
+        backgroundColor: "#FDE9CC "
+
+
+      }
     },
   },
   plugins: [],
