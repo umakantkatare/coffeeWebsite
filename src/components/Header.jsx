@@ -6,8 +6,8 @@ import Button from "../layout/Button";
 
 export default function Header() {
   return (
-    <header className="shadow sticky z-50 top-0">
-      <nav className="  px-4 lg:px-6 py-2.5 bg-gradient-to-r from-brightColor shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+    <header className="shadow sticky z-10 top-0 w-full">
+      <nav className="  px-4 lg:px-6 py-2.5  bg-gradient-to-r from-backgroundColor to-brightColor shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl  ">
           <Link to="/" className="flex items-center">
             <span>

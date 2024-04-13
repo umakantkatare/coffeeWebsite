@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
     const date = new Date().getFullYear()
     
     return (
-        <footer className="bg-white border-y">
+        <footer className=" bg-gradient-to-r from-backgroundColor to-brightColor shadow-[0_3px_10px_rgb(0,0,0,0.2)] border-y">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">

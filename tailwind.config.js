@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -8,9 +9,7 @@ export default {
     extend: {
       colors:{
         brightColor: "#AB6B2E",
-        backgroundColor: "#FDE9CC "
-
-
+        backgroundColor: "#FDE9CC",
       }
     },
   },
