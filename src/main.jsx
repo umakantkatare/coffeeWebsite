@@ -5,11 +5,12 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter,createRoutesFromElements,Route,RouterProvider } from 'react-router-dom'
 
 import App from './App.jsx'
-import  { About, Contact, Menu, Products } from './components/Index.js'
+import  { About, Contact, Home, Menu, Products } from './components/Index.js'
 
 const route = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/>}>,
+    <Route path='/' element={<Home/>}/>,
     <Route path='/contact' element={<Contact/>}/>,
     <Route path='/about' element={<About/>}/>,
     <Route path='/products' element={<Products/>}/>,
