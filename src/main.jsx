@@ -6,6 +6,7 @@ import { createBrowserRouter,createRoutesFromElements,Route,RouterProvider } fro
 
 import App from './App.jsx'
 import  { About, Contact, Home, Menu, Products } from './components/Index.js'
+import Login from './page/LoginPage.jsx'
 
 const route = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +16,7 @@ const route = createBrowserRouter(
     <Route path='/about' element={<About/>}/>,
     <Route path='/products' element={<Products/>}/>,
     <Route path='/menu' element={<Menu/>}/>
+    <Route path='/login' element={<Login/>} />
     </Route>
   )
 )
